@@ -201,7 +201,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #bfbfbf;
 }
 #about .profile-pic {
    position: relative;
@@ -307,7 +307,7 @@ ul#nav li.current a { color: #F06000; }
    text-align:justify;
 }
 #work h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    /* text-transform: uppercase; */
    letter-spacing: 1px;
    text-align: center;
@@ -321,10 +321,27 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+
 #activity .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
+
+#work .outputs {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+   text-align: left;
+
+}
+#work .outputs li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 26px;
+}
+
+#work .outputs li:first-child { margin-left: 0; }
 
 .activity, .activity {
    margin-bottom: 48px;
@@ -342,7 +359,7 @@ ul#nav li.current a { color: #F06000; }
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #bfbfbf;
 }
 #contact .section-head { margin-bottom: 42px; }
 
